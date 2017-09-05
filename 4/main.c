@@ -28,9 +28,7 @@ long solve(long min, long max) {
             }
             if (isPalindrome(prod)) {
                 printf("%ld * %ld = %ld\n", a, b, prod);
-                if (prod > currentMax) {
-                    currentMax = prod;
-                }
+                currentMax = prod;
             }
         }
     }
